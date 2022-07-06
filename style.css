@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-image: url(img/donation9.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position: left;
+    min-height: 650px;
+    text-align: center;
+}
+header h1{
+    padding-top: 200px;
+    margin-top: 0;
+    color: white;
+    font-size: 55px;
+    text-transform: capitalize;
+}
+header p{
+    color: white;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: orangered;
+    border-radius: 10px;
+}
+#amount{
+    width: 70%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#amount .heding{
+    text-align: center;
+}
+#amount .heding h1{
+    font-size: 40px;
+}
+#amount .all-amount{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#amount .all-amount div{
+    color: rgba(0,0,0,0.7);
+    background-color: rgb(240, 245, 245);
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+#amount .all-amount .tow-tk{
+    border: 2px solid rgb(246, 110, 86);
+    background-color: rgb(248, 226, 223);
+    color: rgb(246, 110, 86);
+}
+#amount .other-amount{
+    text-align: center;
+}
+#amount .other-amount input{
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+    width: 100%;
+    font-size: 18px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+#amount .other-amount a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: orangered;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+#donate-plan{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#donate-plan .heding{
+    text-align: center;
+}
+#donate-plan .heding h1{
+    font-size: 40px;
+}
+#donate-plan .all-plan{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+#donate-plan .all-plan div{
+    margin-left: 50px;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+#donate-plan .all-plan div img{
+    margin-top: 50px;
+}
+#donate-plan .all-plan .food{
+    background-color: rgb(229, 242, 242);
+}
+#donate-plan .all-plan .medicine{
+    background-color: rgb(254, 230, 230);
+}
+#donate-plan .all-plan .education{
+    background-color: rgb(253, 253, 223);
+}
+#email-section{
+    width: 70%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#email-section .heading h1{
+    font-size: 40px;
+}
+#email-section .email{
+    background-color: rgb(253, 197, 154);
+    width: 70%;
+    margin: auto;
+    padding: 60px 0;
+}
+#email-section .email input{
+    border: none;
+    background-color: rgb(231, 233, 235);
+    font-size: 18px;
+    padding: 10px 20px;
+}
+#email-section .email button{
+    border: none;
+    padding: 10px 10px;
+    font-size: 18px;
+    background-color: orangered;
+    margin-left: -10px;
+}
+footer{
+    background-color: black;
+    height: 160px;
+    text-align: center;
+    margin-top: 100px;
+}
+footer h1{
+    color: tomato;
+    padding-top: 20px;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+footer p{
+    color: white;
+}
