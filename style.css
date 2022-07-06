@@ -118,6 +118,24 @@ header a{
 #donate-plan .all-plan .education{
     background-color: rgb(253, 253, 223);
 }
+#donate-proces{
+    width: 70%;
+    margin: auto;
+    border: 2px solid rgba(0,0,0,0.4);
+    padding: 20px;
+    border-radius: 4px;
+}
+#donate-proces h1{
+    font-size: 40px;
+    text-align: center;
+}
+#donate-proces i{
+    font-size: 50px;
+    padding: 50px;
+    background-color: rgb(240, 241, 241);
+    margin-left: 23px;
+    border-radius: 10px;
+}
 #email-section{
     width: 70%;
     margin: auto;
